@@ -25,16 +25,21 @@ The evolution of JAX and Triton by OpenAI could lead to a next-generation langua
 - An idea of how `astra` should be used, just wrap it around the main func or class you would like to run and it'll auto include all the dependencies at runtime. Astra should take this code and then map it to cuda kernels using DCGs.
   
 ```python
-import torch
 from astra import astra
+import torch
 from torch import nn
 
-@astra # 100x boost in power and speed.
-def forward(x):
-  softmax = nn.Softmax(dim=1)
-  result = softmax(x)
-  return result
+data = torch.randn(2, 3)    
 
+@astra # 100x+ boost in performance and speed.
+def forward(x):
+    softmax = nn.Softmax(dim=1)
+    result = softmax(x)
+    return result
+
+
+result = forward(data)
+print(result)
 ```
 
 ## Requirements for Astra:
