@@ -67,7 +67,7 @@ The evolution of JAX and Triton by OpenAI could lead to a next-generation langua
 
 ## How to Build Astra:
 
-Building Astra would be a significant undertaking that requires a team of experienced developers and researchers. Here are some steps they might follow:
+Building Astra would be a significant undertaking that requires a team of experienced developers and researchers. Here are some steps we can begin with.
 
 1.  Design the Language: The team should start by designing the language's syntax, features, and APIs, taking into account the requirements listed above.
 
