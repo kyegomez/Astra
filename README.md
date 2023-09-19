@@ -22,7 +22,8 @@ The evolution of JAX and Triton by OpenAI could lead to a next-generation langua
 ---
 
 # Vision
-- An idea of how `astra` should be used.
+- An idea of how `astra` should be used, just wrap it around the main func or class you would like to run and it'll auto include all the dependencies at runtime. Astra should take this code and then map it to cuda kernels using DCGs.
+  
 ```python
 import torch
 from astra import astra
