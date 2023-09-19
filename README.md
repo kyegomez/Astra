@@ -21,7 +21,7 @@ Requirements for Astra:
 
 8.  Strong Community and Documentation: Astra should have a strong community of developers and comprehensive documentation, including tutorials, examples, and API references, to help users get started and solve problems.
 
-How to Build Astra:
+## How to Build Astra:
 
 Building Astra would be a significant undertaking that requires a team of experienced developers and researchers. Here are some steps they might follow:
 
@@ -40,4 +40,4 @@ Building Astra would be a significant undertaking that requires a team of experi
 # Conclusion
 - If Astra is something you would want to use, an ultra beautiful and simple language to unleash limitless performance for AI models, please star and share with all of your friends and family because if this repository gains support we'll build it.
 
-Join Agora to talk more about Astra and unleashing the true capabilities of AI.
+[Join Agora to talk more about Astra and unleashing the true capabilities of AI](https://discord.gg/qUtxnK2NMf)
