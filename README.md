@@ -3,7 +3,7 @@ Astra is an language/compiler designed to unleash the true power of artificial i
 
 The evolution of JAX and Triton by OpenAI could lead to a next-generation language for AI development that combines the best features of both, while also introducing new capabilities to meet the evolving needs of the AI community. Let's call this hypothetical language "Astra", here would be some features that we would need to move things forward.
 
-## Features
+## Main Features
 
 1.  🔄 Differentiable Programming: Support for automatic differentiation and vectorization.
 
@@ -18,32 +18,6 @@ The evolution of JAX and Triton by OpenAI could lead to a next-generation langua
 6.  🔗 Interoperability: Compatibility with popular Python libraries and AI frameworks.
 
 7.  🔍 Debugging and Profiling Tools: Robust tools for identifying and fixing performance bottlenecks or errors.
-
-8.  📚 Strong Documentation: Comprehensive tutorials, examples, and API references.
-
-9.  👥 Community Support: A strong community of developers and users for support and collaboration.
-
-10. 🚀 Performance Optimization: Tools and features for optimizing the performance of AI models.
-
-11. 🛡️ Robustness: Features to ensure the robustness and reliability of AI models.
-
-12. 🔄 Model Versioning: Support for versioning of models to keep track of changes and improvements.
-
-13. 📈 Visualization Tools: Built-in tools for visualizing data, model architecture, and training progress.
-
-14. 🎛️ Hyperparameter Tuning: Tools for efficient hyperparameter tuning and optimization.
-
-15. 🧠 Advanced AI Models: Support for the latest AI models and architectures.
-
-16. 🗃️ Data Handling: Efficient data loading, preprocessing, and augmentation tools.
-
-17. 🏷️ Model Deployment: Features for easy deployment of models in various environments.
-
-18. 🌐 Multi-Language Support: Support for programming in multiple languages, not just Python.
-
-19. 🎁 Package Management: A robust package management system for easy installation and management of libraries and dependencies.
-
-20. 🌈 Cross-Platform: Support for various operating systems like Linux, Windows, and macOS.
 
 ---
 
