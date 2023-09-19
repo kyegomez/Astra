@@ -21,6 +21,21 @@ The evolution of JAX and Triton by OpenAI could lead to a next-generation langua
 
 ---
 
+# Vision
+- An idea of how `astra` should be used.
+```python
+import torch
+from astra import astra
+from torch import nn
+
+@astra # 100x boost in power and speed.
+def forward(x):
+  softmax = nn.Softmax(dim=1)
+  result = softmax(x)
+  return result
+
+```
+
 ## Requirements for Astra:
 
 1.  Differentiable Programming: Like JAX, Astra should support automatic differentiation and vectorization, which are crucial for gradient-based optimization and parallel computing in AI.
