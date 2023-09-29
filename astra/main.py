@@ -50,16 +50,3 @@ def astra(mixed_precision=False):
         return wrapper
     return decorator
 
-# Sample Usage
-from torch import nn
-
-data = torch.randn(2, 3)
-
-@astra(mixed_precision=True)
-def forward(x):
-    softmax = nn.Softmax(dim=1).to(x.device)
-    result = softmax(x)
-    return result
-
-result = forward(data)
-print(result)

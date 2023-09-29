@@ -15,10 +15,6 @@ The evolution of JAX and Triton by OpenAI could lead to a next-generation langua
 
 5.  🌐 Distributed Computing: Built-in support for scaling AI models across multiple GPUs or machines.
 
-6.  🔗 Interoperability: Compatibility with popular Python libraries and AI frameworks.
-
-7.  🔍 Debugging and Profiling Tools: Robust tools for identifying and fixing performance bottlenecks or errors.
-
 ---
 
 # Vision
