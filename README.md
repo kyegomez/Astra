@@ -1,23 +1,12 @@
 # Astra
 Astra is an language/compiler designed to unleash the true power of artificial intelligence blending the best techniques from Jax, Triton, and Mojo to create the most premier experience.
 
-The evolution of JAX and Triton by OpenAI could lead to a next-generation language for AI development that combines the best features of both, while also introducing new capabilities to meet the evolving needs of the AI community. Let's call this hypothetical language "Astra", here would be some features that we would need to move things forward.
+The evolution of JAX and Triton could lead to a next-generation language for AI development that combines the best features of both, while also introducing new capabilities to meet the evolving needs of the AI community. Let's call this hypothetical language "Astra", here would be some features that we would need to move things forward.
 
-## Main Features
+# Install
+`pip install adastra`
 
-1.  🔄 Differentiable Programming: Support for automatic differentiation and vectorization.
-
-2.  🎮 GPU Programming: Low-level access to GPU kernels for efficient code execution.
-
-3.  🧩 High-level Abstractions: Pre-defined layers, loss functions, optimizers, and more for common AI tasks.
-
-4.  🌳 Dynamic Computation Graphs: Support for models with variable-length inputs or control flow.
-
-5.  🌐 Distributed Computing: Built-in support for scaling AI models across multiple GPUs or machines.
-
----
-
-# Vision
+# Usage
 - An idea of how `astra` should be used, just wrap it around the main func or class you would like to run and it'll auto include all the dependencies at runtime. Astra should take this code and then map it to cuda kernels using DCGs.
   
 ```python
@@ -37,6 +26,21 @@ def forward(x):
 result = forward(data)
 print(result)
 ```
+
+## Main Features
+
+1.  🔄 Differentiable Programming: Support for automatic differentiation and vectorization.
+
+2.  🎮 GPU Programming: Low-level access to GPU kernels for efficient code execution.
+
+3.  🧩 High-level Abstractions: Pre-defined layers, loss functions, optimizers, and more for common AI tasks.
+
+4.  🌳 Dynamic Computation Graphs: Support for models with variable-length inputs or control flow.
+
+5.  🌐 Distributed Computing: Built-in support for scaling AI models across multiple GPUs or machines.
+
+---
+
 
 ## Requirements for Astra:
 
