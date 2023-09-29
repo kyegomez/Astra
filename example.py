@@ -5,7 +5,7 @@ from torch import nn
 
 data = torch.randn(2, 3)
 
-@astra(mixed_precision=True)
+@astra(mixed_precision=True, backend="auto")
 def forward(x):
     softmax = nn.Softmax(dim=1).to(x.device)
     result = softmax(x)

@@ -7,7 +7,6 @@ The evolution of JAX and Triton could lead to a next-generation language for AI 
 `pip install adastra`
 
 # Usage
-- An idea of how `astra` should be used, just wrap it around the main func or class you would like to run and it'll auto include all the dependencies at runtime. Astra should take this code and then map it to cuda kernels using DCGs.
   
 ```python
 from astra import astra
