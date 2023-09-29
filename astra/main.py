@@ -15,6 +15,39 @@ except ImportError:
     _APEX_AVAILABLE = False
 
 def astra(mixed_precision=False):
+    """
+    Astra works by wrapping a function with a decorator that determines the device and precision to run the function on.
+    
+    Parameters
+    ----------
+    mixed_precision : bool, optional
+        Whether to use mixed precision. This is only available on CUDA devices.
+    
+    Returns
+    -------
+    decorator
+        The decorator that will wrap the function.
+    
+    Examples
+    --------
+    >>> from torch import nn
+    >>> data = torch.randn(2, 3)
+    >>> @astra(mixed_precision=True)
+    ... def forward(x):
+    ...     softmax = nn.Softmax(dim=1).to(x.device)
+    ...     result = softmax(x)
+    ...     return result
+    >>> result = forward(data)
+    >>> print(result)
+
+    Future optimizations, features
+    ------------------------------
+    - [ ] Kernel fusion
+    - [ ] JIT compilation
+    - [ ] Graph optimization
+
+    
+    """
     def decorator(func):
         def wrapper(*args, **kwargs):
             if not _XLA_AVAILABLE and not torch.cuda.is_available():
