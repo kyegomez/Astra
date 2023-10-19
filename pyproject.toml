@@ -31,9 +31,7 @@ torch = "*"
 triton = "*"
 torchvision = "*"
 jax = "*"
+pybind11 = "*"
 
-
-
-
-[tool.poetry.dev-dependencies]
-# Add development dependencies here
+[tool.poetry.scripts]
+compile_gelu = "build:build"
